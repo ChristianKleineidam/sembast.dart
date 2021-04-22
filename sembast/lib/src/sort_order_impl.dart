@@ -18,7 +18,7 @@ class SembastSortOrder implements SortOrder {
   /// default is [ascending] = true, [nullLast] = false
   ///
   /// user withParam
-  SembastSortOrder(this.field, [bool? ascending, bool? nullLast])
+  const SembastSortOrder(this.field, [bool? ascending, bool? nullLast])
       : ascending = ascending != false,
         nullLast = nullLast == true;
 

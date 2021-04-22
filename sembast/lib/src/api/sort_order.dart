@@ -12,8 +12,8 @@ class SortOrder {
   ///
   /// [nullLast] means nulls are sorted last in ascending order
   /// so if not [ascending], it means null are sorted first
-  factory SortOrder(String field,
+  const factory SortOrder(String field,
       [bool ascending = true, bool nullLast = false]) {
-    return SembastSortOrder(field, ascending, nullLast);
+    return const SembastSortOrder(field, ascending, nullLast);
   }
 }
